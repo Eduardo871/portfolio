@@ -1,0 +1,54 @@
+.background 
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.one
+{
+    background-image: url('../../image/Laptop.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    position: relative;
+    display: flex;
+}
+
+.two
+{
+    background-color: rgb(134, 124, 125);
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.three
+{
+    background-color: rgb(36, 31, 35);
+    height: 60vh;
+    position: relative;
+    display: flex;
+}
+
+.image
+{
+    width: 260px;
+    height: 80px;
+    position: absolute;
+    left: 35%;
+    top: 80px;
+   
+}
+
+@media (max-width: 735px){
+    .image
+    {
+        display: none;
+    }
+    .one
+    {
+        height: 70vh;
+    }
+}
+
